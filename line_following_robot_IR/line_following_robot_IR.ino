@@ -16,7 +16,7 @@ void loop() {
   int x=digitalRead(4);
   Serial.println(x);
   if(x==LOW){
-    digitalWrite(5,HIGH);
+    digitalWrite(5,HIGH); //LED or Buzzer
     digitalWrite(mpin1,LOW);//stop if WHITE has found
     digitalWrite(mpin2,LOW);
     digitalWrite(mpin3,LOW);  
@@ -64,4 +64,5 @@ void loop() {
 //}
 
     
+
 
