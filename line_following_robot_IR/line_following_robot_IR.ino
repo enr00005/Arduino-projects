@@ -1,3 +1,4 @@
+//single line 
 int mpin1=6;
 int mpin2=7;
 int mpin3=8;
@@ -64,5 +65,6 @@ void loop() {
 //}
 
     
+
 
 
